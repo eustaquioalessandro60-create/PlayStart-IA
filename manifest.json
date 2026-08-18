@@ -1,0 +1,22 @@
+{
+  "name": "PlayStart IA",
+  "short_name": "PlayStart",
+  "description": "PlayStart IA — Plataforma central do Grupo Rimane. 16 IAs unidas, automações e criação de projetos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1220",
+  "theme_color": "#4285F4",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
