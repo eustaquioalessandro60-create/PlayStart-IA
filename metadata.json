@@ -1,0 +1,6 @@
+{
+  "name": "PLAYSTART IA",
+  "description": "Todas as IAs que você precisa, em um só lugar! PWA da Grupo Rimane para criação, adaptação multiformatos e disparo em redes sociais com fallback inteligente.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

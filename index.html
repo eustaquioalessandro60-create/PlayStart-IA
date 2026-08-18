@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>PLAYSTART IA — Todas as IAs em um só lugar</title>
+    <meta name="description" content="PLAYSTART IA — Todas as IAs que você precisa, em um só lugar! Grupo Rimane." />
+    <meta name="theme-color" content="#0F111A" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PlayStart IA" />
+    
+    <!-- Open Graph & Social -->
+    <meta property="og:title" content="PLAYSTART IA — Todas as IAs em um só lugar" />
+    <meta property="og:description" content="Criação de imagem + vídeo com fallback inteligente e disparo multi-redes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Icons & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+  </head>
+  <body class="bg-[#0F111A] text-[#F8FAFC] min-h-screen antialiased selection:bg-[#06B6D4] selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
+

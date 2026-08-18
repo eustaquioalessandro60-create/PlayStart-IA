@@ -1,0 +1,31 @@
+{
+  "name": "PLAYSTART IA",
+  "short_name": "PlayStart",
+  "description": "Todas as IAs que você precisa, em um só lugar! Grupo Rimane",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F111A",
+  "theme_color": "#06B6D4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "multimedia"],
+  "shortcuts": [
+    {
+      "name": "Nova Criação",
+      "url": "/#create",
+      "description": "Criar imagem e vídeo com fallback de IA"
+    },
+    {
+      "name": "Histórico e Disparos",
+      "url": "/#history",
+      "description": "Ver mídias criadas e status de disparo"
+    }
+  ]
+}
