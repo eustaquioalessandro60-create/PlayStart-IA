@@ -1,22 +1,2 @@
+"description": "PlayStart IA — Plataforma de criação de imagens, vídeos e inteligência artificial do Grupo Rimane"
 
-{
-  "name": "PlayStart IA",
-  "short_name": "PlayStart",
-  "description": "PlayStart IA — Plataforma central do Grupo Rimane.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#0B1220",
-  "theme_color": "#4285F4",
-  "icons": [
-    {
-      "src": "share_image_1787066186844.jpeg",
-      "sizes": "192x192",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "share_image_1787066615882.jpeg",
-      "sizes": "512x512",
-      "type": "image/jpeg"
-    }
-  ]
-}
